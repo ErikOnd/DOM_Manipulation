@@ -33,10 +33,10 @@ function hidePictures() {
 }
 
 
-function randomLinkColor() {
+function randomLinkColor(id) {
     let randomColor = Math.floor(Math.random() * 16777215).toString(16);
-    let links = document.getElementsByTagName('a');
-    for (let i = 0; i < links.length; i++) {
-        links[i].style.color = '#' + randomColor;
-    }
+    let links = document.getElementById(id);
+
+    links.style.color = '#' + randomColor;
+
 }
