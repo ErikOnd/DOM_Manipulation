@@ -24,4 +24,22 @@ footer {
     text-align: center;
 }
 
-.messageUs {}
+.newBackground {
+    background-color: antiquewhite;
+}
+
+.orangeLink {
+    color: orange;
+}
+
+.hidePictures {
+    visibility: hidden;
+}
+
+.textAndButtons {
+    text-align: center;
+}
+
+.textAndButtons textarea {
+    margin-bottom: 30px;
+}

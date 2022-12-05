@@ -6,7 +6,6 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="index.js" defer></script>
     <title>Document</title>
 </head>
 
@@ -79,15 +78,23 @@
                     target="_blank">59.90€</td>
         </tr>
     </table>
-    <div class="messageUs">
-        <span>Message us:</span>
-        <textarea></textarea>
+    <div class="textAndButtons">
+        <div class="messageUs">
+            <p>Message us:</p>
+            <textarea></textarea>
+        </div>
+        <button onclick="changeHeadline()">Change H1 Text</button>
+        <button onclick="changeBgColor()">Change Background</button>
+        <button onclick="changeFooterAddress()">Change Address</button>
+        <button onclick="orangeLink()">Links in a new color</button>
+        <button onclick="hidePictures()">Hide/Show pictures</button>
+        <button onclick="randomLinkColor()">Random Color for Links</button>
     </div>
     <footer>
         <p>TheGreatesSmartphoneShopEver</p>
-        <p>Address: TestStreet 8, 71364 Stuttgart</p>
+        <p>Address: <span>TestStreet 8, 71364 Stuttgart</span></p>
     </footer>
-
+    <script src="index.js"></script>
 </body>
 
 </html>
