@@ -1,0 +1,27 @@
+h1 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+
+table {
+    margin: 0 auto;
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+}
+
+td,
+th {
+    width: 150px;
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+footer {
+    margin-top: 200px;
+    text-align: center;
+}
+
+.messageUs {}
